@@ -29,7 +29,7 @@ let urlDataForCell: [DataForVideo] = [
     DataForVideo(urlName: "https://www.youtube.com/watch?v=lqQ_OM4uPa0", imgForVideoName: "dictionary", lblForVideoName: "What is Dictionary"),
     DataForVideo(urlName: "https://www.youtube.com/watch?v=QNh-L7jBdko", imgForVideoName: "sets", lblForVideoName: "Set"),
     DataForVideo(urlName: "https://www.youtube.com/watch?v=voviIrX7bXU", imgForVideoName: "struct", lblForVideoName: "Struct"),
-    DataForVideo(urlName: "https://www.youtube.com/watch?v=dWQuOj1bnN8", imgForVideoName: "func", lblForVideoName: "Func in Swift"),
+    DataForVideo(urlName: "https://www.youtube.com/watch?v=dWQuOj1bnN8", imgForVideoName: "func", lblForVideoName: "Function in Swift"),
     DataForVideo(urlName: "https://www.youtube.com/watch?v=EhDML-fAqTM", imgForVideoName: "class", lblForVideoName: "Struct or Class?"),
     DataForVideo(urlName: "https://www.youtube.com/watch?v=RleVSNhofKs", imgForVideoName: "sdk", lblForVideoName: "Software Development Kit"),
     
