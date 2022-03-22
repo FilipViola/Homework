@@ -19,7 +19,6 @@
 		DC48DC6327E7E034006FAB9D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48DC6227E7E034006FAB9D /* VideoViewController.swift */; };
 		DC48DC6527E7E060006FAB9D /* Model VideoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48DC6427E7E060006FAB9D /* Model VideoScreen.swift */; };
 		DC48DC6727E888A1006FAB9D /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48DC6627E888A1006FAB9D /* VideoTableViewCell.swift */; };
-		DCEF0B5D27E9466000AE22DD /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF0B5C27E9466000AE22DD /* SafariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		DC48DC6227E7E034006FAB9D /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		DC48DC6427E7E060006FAB9D /* Model VideoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model VideoScreen.swift"; sourceTree = "<group>"; };
 		DC48DC6627E888A1006FAB9D /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
-		DCEF0B5C27E9466000AE22DD /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 				DC38FF2C27E21311004EA4DA /* ViewController.swift */,
 				DC38FF3E27E22741004EA4DA /* SecondScreenViewController.swift */,
 				DC48DC6227E7E034006FAB9D /* VideoViewController.swift */,
-				DCEF0B5C27E9466000AE22DD /* SafariViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 			files = (
 				DC38FF2D27E21311004EA4DA /* ViewController.swift in Sources */,
 				DC48DC6327E7E034006FAB9D /* VideoViewController.swift in Sources */,
-				DCEF0B5D27E9466000AE22DD /* SafariViewController.swift in Sources */,
 				DC48DC6527E7E060006FAB9D /* Model VideoScreen.swift in Sources */,
 				DC38FF3F27E22741004EA4DA /* SecondScreenViewController.swift in Sources */,
 				DC38FF2927E21311004EA4DA /* AppDelegate.swift in Sources */,

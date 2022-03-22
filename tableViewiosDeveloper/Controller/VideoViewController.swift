@@ -6,11 +6,11 @@
 //
 
 import UIKit
+import SafariServices
 
 class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
-    
+    @IBOutlet weak var btnSFSafari: UIBarButtonItem!
     @IBOutlet weak var videoTableView: UITableView!
     
     
@@ -46,4 +46,16 @@ class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         UIApplication.shared.open(URL(string: "\(urlDataForCell[indexPath.row].urlName)")!, options: [:], completionHandler: nil)
     }
+    
+    @IBAction func btnSafariPressed(_ sender: Any) {
+        
+        if let url = URL(string: "https://developer.apple.com") {
+            
+            let safariViewControler = SFSafariViewController(url: url)
+            
+            present(safariViewControler, animated: true, completion: nil)
+        }
+        
+    }
+    
 }
