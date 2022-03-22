@@ -44,7 +44,16 @@ class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        UIApplication.shared.open(URL(string: "\(urlDataForCell[indexPath.row].urlName)")!, options: [:], completionHandler: nil)
+      
+        // ovo ima vise smisla nego da za svaki cell ide u novi prozor youTube-a u Safari-u
+        if let cellUrl = URL(string: "\(urlDataForCell[indexPath.row].urlName)"){
+            let safariVC = SFSafariViewController(url: cellUrl)
+            
+            present(safariVC, animated: true, completion: nil)
+        }
+        
+    
+        //UIApplication.shared.open(URL(string: "\(urlDataForCell[indexPath.row].urlName)")!, options: [:], completionHandler: nil)
     }
     
     @IBAction func btnSafariPressed(_ sender: Any) {
