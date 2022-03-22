@@ -77,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1183" y="873"/>
+            <point key="canvasLocation" x="-2041" y="996"/>
         </scene>
         <!--Second Screen View Controller-->
         <scene sceneID="ryr-ZZ-a1r">
@@ -122,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Odf-72-vN9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="873"/>
+            <point key="canvasLocation" x="-1229" y="996"/>
         </scene>
         <!--Lessons-->
         <scene sceneID="eYX-Ko-1oR">
@@ -192,7 +192,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8m-e0-frd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824.63768115942037" y="872.54464285714278"/>
+            <point key="canvasLocation" x="-32" y="996"/>
+        </scene>
+        <!--Safari View Controller-->
+        <scene sceneID="EK4-6b-fqM">
+            <objects>
+                <viewController id="nzn-r6-FZi" customClass="SafariViewController" customModule="tableViewiosDeveloper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u70-nI-kUy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NVf-Hy-p6I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P6O-9C-9zq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Qt-QG-cdT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1446" y="996"/>
         </scene>
         <!--Recent News-->
         <scene sceneID="dkb-lV-iCu">
@@ -219,7 +235,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bws-UV-bff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823" y="117"/>
+            <point key="canvasLocation" x="-1680" y="240"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VJ8-71-Hls">
@@ -237,6 +253,7 @@
                     <connections>
                         <segue destination="c0h-jZ-it0" kind="relationship" relationship="viewControllers" id="7ne-dj-gOn"/>
                         <segue destination="Us2-s4-DAB" kind="relationship" relationship="viewControllers" id="wsN-4U-dAX"/>
+                        <segue destination="Gvl-mP-Mmr" kind="relationship" relationship="viewControllers" id="qD2-RI-Hv3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fng-6U-dKR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -263,12 +280,34 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMZ-wv-kHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="826" y="117"/>
+            <point key="canvasLocation" x="-32" y="240"/>
+        </scene>
+        <!--Developer-->
+        <scene sceneID="YBS-HQ-J68">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gvl-mP-Mmr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Developer" id="iou-Ud-YyJ">
+                        <imageReference key="image" image="safari" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Grz-r5-moh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nzn-r6-FZi" kind="relationship" relationship="rootViewController" id="Xtv-lx-i7k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0mQ-iH-TMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1446" y="240"/>
         </scene>
     </scenes>
     <resources>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="play.rectangle" catalog="system" width="128" height="93"/>
+        <image name="safari" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
